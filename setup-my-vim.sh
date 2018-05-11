@@ -3,7 +3,7 @@
 
 cp .vimrc ~
 cp -R .vim ~
-cd ~./vim
 git clone https://github.com/VundleVim/Vundle.vim
-cd ~
+mv Vundle.vim ~/.vim/bundle
+
 
