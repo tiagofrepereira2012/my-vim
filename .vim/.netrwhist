@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/remote/idiap.svm/user.active/tpereira/gitlab/bob/bob.bio.face-ongoing/bob'
+let g:netrw_dirhist_2='/remote/idiap.svm/user.active/tpereira/gitlab/bob/bob.bio.face-ongoing/bob/bio/face-ongoing/configs/baselines'
+let g:netrw_dirhist_3='/local/scratch/tpereira/temp/gmm_answer.py'
+let g:netrw_dirhist_4='/remote/idiap.svm/user.active/tpereira/.snapshot'
+let g:netrw_dirhist_5='/remote/idiap.svm/user.active/tpereira/gitlab/bob/bob.bio.face-ongoing/bob/bio/face_ongoing/configs'
+let g:netrw_dirhist_6='/idiap/user/tpereira'
+let g:netrw_dirhist_7='/remote/idiap.svm/user.active/tpereira/gitlab/workspace_HTFace/src/bob.bio.htface/bob/bio/htface/configs/experiments/inception_resnet_v2_adapt_layers_1_4'
+let g:netrw_dirhist_8='/remote/idiap.svm/user.active/tpereira/gitlab/workspace_HTFace/src/bob.db.pericrosseye/conda'
