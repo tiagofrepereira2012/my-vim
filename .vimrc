@@ -14,6 +14,7 @@ Plugin 'VundleVim/Vundle.vim'
 " Plugins
 Plugin 'scrooloose/nerdtree' "Tree view
 Plugin 'w0rp/ale' "Linter
+Plugin 'myusuf3/numbers.vim' " Line numbers
 
 call vundle#end()            " required
 filetype plugin indent on    " required
