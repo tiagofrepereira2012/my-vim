@@ -16,6 +16,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree' "Tree view
 Plugin 'w0rp/ale' "Linter
 Plugin 'myusuf3/numbers.vim' " Line numbers
+Plugin 'lervag/vimtex' " Latex shit
 
 call vundle#end()            " required
 filetype plugin indent on    " required
