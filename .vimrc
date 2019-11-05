@@ -26,3 +26,7 @@ source ~/.vim/abbreviations.vim
 
 syntax on
 " list of Plugins: VIM plugins for dummies https://howchoo.com/g/ztmyntqzntm/how-to-install-vim-plugins-without-a-plugin-manager#create-a-bundle-directory-inside-the-vim-folder
+
+" vim colors
+highlight Directory guifg=#FF0000 ctermfg=red                                              
+highlight Comment ctermfg=green 
