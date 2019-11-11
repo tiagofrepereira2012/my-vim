@@ -30,3 +30,6 @@ syntax on
 " vim colors
 highlight Directory guifg=#FF0000 ctermfg=red                                              
 highlight Comment ctermfg=green 
+
+ au BufNewFile,BufRead Snakefile set syntax=snakemake
+ au BufNewFile,BufRead *.smk set syntax=snakemake
