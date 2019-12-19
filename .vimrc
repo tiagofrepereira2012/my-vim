@@ -17,6 +17,7 @@ Plugin 'scrooloose/nerdtree' "Tree view
 Plugin 'w0rp/ale' "Linter
 Plugin 'myusuf3/numbers.vim' " Line numbers
 Plugin 'lervag/vimtex' " Latex shit
+Plugin 'dikiaap/minimalist' " syntax highlight
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -24,12 +25,12 @@ filetype plugin indent on    " required
 " abbrev
 source ~/.vim/abbreviations.vim
 
+colo minimalist " very nice color scheme from dikiaap/minimalist
 syntax on
-" list of Plugins: VIM plugins for dummies https://howchoo.com/g/ztmyntqzntm/how-to-install-vim-plugins-without-a-plugin-manager#create-a-bundle-directory-inside-the-vim-folder
 
-" vim colors
-highlight Directory guifg=#FF0000 ctermfg=red                                              
-highlight Comment ctermfg=green 
+" Nerdtree menu in red
+highlight Directory guifg=#FF0000 ctermfg=red
+" list of Plugins: VIM plugins for dummies https://howchoo.com/g/ztmyntqzntm/how-to-install-vim-plugins-without-a-plugin-manager#create-a-bundle-directory-inside-the-vim-folder<F12>
+"
+"highlight Comment ctermfg=green
 
- au BufNewFile,BufRead Snakefile set syntax=snakemake
- au BufNewFile,BufRead *.smk set syntax=snakemake
